@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+<center>
+    <title>Off Campus Housing</title>
+    <br>
+    <h1> Off Campus Housing </h1>
+    <h3> What are you looking for...</h3>
+   <style>
+h1 
+{
+    font-size: 60px;
+}
+h3{
+    font-size: 30px;
+}
+body {
+  background-image: url('/Users/aasthaaanchal/Downloads/html/image.webp');
+  background-size: cover;
+}
+
+form {
+    margin: 20px auto;
+    align-items: top;
+}
+       .form-control {
+           text-align: left;
+           margin-bottom: 25px;
+       }
+       .form-control label {
+           display: block;
+           margin-bottom: 10px;
+       }
+    .button
+    {
+        background-color: rgb(171, 38, 38);
+     text-align: center;
+     color: rgb(255, 255, 255);
+     width: 800px;
+     height: 150px;
+ .big-btn {font-size:80px}
+ .big-btn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  align-items: center;
+    justify-content: center;
+    
+}
+.submitbutton
+    {background-color: rgb(185, 185, 185);
+     color: black;
+     padding: 20px;
+     border-radius: 10%;
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 0px;
+     width: 220px;
+     height: 104px;
+     font-size: 20px;
+     margin:10px}
+
+        .box
+        {
+            position: relative;
+            height: 150px;
+            width: 800px;
+            transform-style: preserve-3d;
+            transition: 0.4s ease;
+        }
+        .box:hover{
+            transform: rotateX(90deg);
+        }
+        .btn
+        {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgb(101, 5, 5);
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backface-visibility: hidden;
+        }
+        .upside
+        {
+            background-image: linear-gradient(to right, #0956d2 0%, #a7237b 51%, #6712f9 100%);
+            transform: rotateX(-90deg) translateZ(75px);
+            align-items: center;
+        }
+
+        .front
+        {
+            transform: translateZ(75px);
+
+        }
+        .class
+        {
+            align-items: center;
+        }
+        .name
+        {
+            align-items: bottom;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="button">
+        <div class="box">
+            <div class="upside btn">&nbsp&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                How many bedrooms do you want?
+                
+                <form id="form">
+                    
+                    <div class="form-control">
+                        <label for="recommed-1">
+                            <br>
+                            <input type="radio" id="recommed-1"
+                        
+                                   name="recommed">1
+
+                              </input>
+                        </label>
+                        <label for="recommed-2">
+                            <input type="radio" id="recommed-2"
+                                   name="recommed">2
+                              </input>
+                        </label>
+                        <label for="recommed-3">
+                            <input type="radio" id="recommed-3"
+                                   name="recommed">4
+                              </input>
+                        </label>
+                    </div>
+                </form></div>
+                <div class="front btn">Bedrooms</div>
+                
+            </div>
+        </div>
+            <br>
+            <div class="button">
+                <div class="box">
+                    <div class="upside btn">&nbsp&nbsp&nbsp&nbsp&nbsp
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        What kind of facilities do you want?
+                    <form id="form">
+                    
+                        <div class="form-control">
+                            <label for="recommed-1">
+                                <br>
+                                <input type="radio" id="recommed-1"
+                            
+                                       name="recommed">Bathrooms
+    
+                                  </input>
+                            </label>
+                            <label for="recommed-2">
+                                <input type="radio" id="recommed-2"
+                                       name="recommed">Washer/Dryer
+                                  </input>
+                            </label>
+                            <label for="recommed-3">
+                                <input type="radio" id="recommed-3"
+                                       name="recommed">AC/Heating
+                                  </input>
+                            </label>
+                        </div>
+                    </form></div>
+                        <div class="front btn">Facilities</div>
+
+                    </div>
+                </div>
+                <br>
+
+                <div class="button">
+                    <div class="box">
+                        <div class="upside btn">&nbsp&nbsp&nbsp&nbsp&nbsp
+                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            What range of rent do you want?
+
+                            <form id="form">
+                    
+                                <div class="form-control">
+                                    <label for="recommed-1">
+                                        <br>
+                                        <input type="radio" id="recommed-1"
+                                    
+                                               name="recommed">$650 - $750
+            
+                                          </input>
+                                    </label>
+                                    <label for="recommed-2">
+                                        <input type="radio" id="recommed-2"
+                                               name="recommed">$750 - $850
+                                          </input>
+                                    </label>
+                                    <label for="recommed-3">
+                                        <input type="radio" id="recommed-3"
+                                               name="recommed">$900+
+                                          </input>
+                                    </label>
+                                </div>
+                            </form></div>
+                            <div class="front btn">Rent</div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="button">
+                        <div class="box">
+                            <div class="upside btn">&nbsp&nbsp&nbsp&nbsp&nbsp
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                Do you have pets?
+                                <form id="form">
+                    
+                                    <div class="form-control">
+                                        <label for="recommed-1">
+                                            <br>
+                                            <input type="radio" id="recommed-1"
+                                        
+                                                   name="recommed">Yes
+                                                   
+                
+                                              </input>
+                                        </label>
+                                        <label for="recommed-2">
+                                            <input type="radio" id="recommed-2"
+                                                   name="recommed">No
+                                              </input>
+                                        </label>
+                                    </div>
+                                </form></div>
+                                <div class="front btn">Animal Friendly</div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="button">
+                            <div class="box">
+                                <div class="upside btn">&nbsp&nbsp&nbsp&nbsp&nbsp
+                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                    What style house do you want?
+                                    <form id="form">
+                    
+                                        <div class="form-control">
+                                            <label for="recommed-1">
+                                                <br>
+                                                <input type="radio" id="recommed-1"
+                                            
+                                                       name="recommed">Townhouse
+                    
+                                                  </input>
+                                            </label>
+                                            <label for="recommed-2">
+                                                <input type="radio" id="recommed-2"
+                                                       name="recommed">Apartment
+                                                  </input>
+                                            </label>
+                                            <label for="recommed-3">
+                                                <input type="radio" id="recommed-3"
+                                                       name="recommed">Frat House
+                                                  </input>
+                                            </label>
+                                        </div>
+                                    </form></div>
+                                    <div class="front btn">Style</div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="button">
+                                <div class="box">
+                                    <div class="upside btn">&nbsp&nbsp&nbsp&nbsp&nbsp
+                                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                        How many parking spots do you want?
+                                        <form id="form">
+                    
+                                            <div class="form-control">
+                                                <label for="recommed-1">
+                                                    <br>
+                                                    <input type="radio" id="recommed-1"
+                                                
+                                                           name="recommed">1
+                        
+                                                      </input>
+                                                </label>
+                                                <label for="recommed-2">
+                                                    <input type="radio" id="recommed-2"
+                                                           name="recommed">2
+                                                      </input>
+                                                </label>
+                                                <label for="recommed-3">
+                                                    <input type="radio" id="recommed-3"
+                                                           name="recommed">3
+                                                      </input>
+                                                </label>
+                                            </div>
+                                        </form></div>
+                                        <div class="front btn">Parking</div>
+                                    </div>
+                                </div>   
+                                <br>
+                                <br>
+                                <button type = "button" class = "submitbutton" href = "/Users/aasthaaanchal/Downloads/html/submit.html">
+                                    <a href = "/Users/aasthaaanchal/Downloads/html/submit.html">Submit</button></a>
+
+
+                                    
+                                
+                                 
+                                 
+        </div>
+    </div>
+</center>
+</body>
+</body>
+</html>
